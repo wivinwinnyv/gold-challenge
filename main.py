@@ -57,6 +57,7 @@ name=input("enter user id : ")
 password=input("enter password : ")
 if name=="wivin" and password=="1234":
     print("generating qr code...")
+    qrcode()
     time.sleep(2)
     print("starting test...")
     time.sleep(1)
